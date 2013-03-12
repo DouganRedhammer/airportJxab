@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://www.webservicex.com/airport.asmx?wsdl" uri="src/conf/xml-resources/web-service-references/airport/wsdl/www.webservicex.com/airport.asmx.wsdl"/>
+    <system systemId="file:/C:/Users/Dougan/Documents/airportJxab/../../Desktop/project3%20sandbox/airport.xsd" uri="src/conf/xml-resources/jaxb/airportBinding/airport.xsd"/>
+    <system systemId="file:/C:/Users/Dougan/Documents/airportJxab/weather.xsd" uri="src/conf/xml-resources/jaxb/weatherBinding/weather.xsd"/>
+    <system systemId="http://www.webservicex.net/globalweather.asmx?WSDL" uri="src/conf/xml-resources/web-service-references/globalweather/wsdl/www.webservicex.net/globalweather.asmx.wsdl"/>
+    <system systemId="file:/C:/Users/Dougan/Documents/airportJxab/../../Desktop/project3%20sandbox/googleMaps.xsd" uri="src/conf/xml-resources/jaxb/google/googleMaps.xsd"/>
+</catalog>

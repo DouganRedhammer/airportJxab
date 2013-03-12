@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<schemas xmlns='http://xml.netbeans.org/schema/JAXBWizConfig' destdir='build/generated-sources/jaxb' projectName='airportJxab' version='1.0'>
+	<schema type='-xmlschema' package='google' name='google'>
+		<xjc-options>
+			<xjc-option name='-verbose' value='true'/>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='src/conf/xml-resources/jaxb/google/googleMaps.xsd' origLocation='../../Desktop/project3 sandbox/googleMaps.xsd'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+</schemas>
