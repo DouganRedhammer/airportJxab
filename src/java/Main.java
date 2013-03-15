@@ -96,6 +96,14 @@ public class Main {
        
         System.out.println(weather.getTemperature());
   
+        
+        System.out.println(Main.getAirportInformationByCityOrAirportName("Paso Robles"));
+    }
+
+    private static String getAirportInformationByCityOrAirportName(java.lang.String cityOrAirportName) {
+        net.webservicex.Airport service = new net.webservicex.Airport();
+        net.webservicex.AirportSoap port = service.getAirportSoap();
+        return port.getAirportInformationByCityOrAirportName(cityOrAirportName);
     }
 
 

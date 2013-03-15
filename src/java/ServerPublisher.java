@@ -1,5 +1,7 @@
 import javax.xml.ws.Endpoint;
-
+/*
+ *  Adapted from Prof. Ronald Mak's ServerImplementation class
+ */
 
 public class ServerPublisher 
 {
